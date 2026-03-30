@@ -1,0 +1,183 @@
+body {
+  background-color: #F2F2F2;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #33669A;
+  padding: 10px 0;
+  margin: -8px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+.nav-left, .nav-right {
+  flex: 1;
+}
+
+.nav-left {
+  margin-left: 20px;
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <900>;
+  font-style: normal;
+  font-size: 24px;
+}
+.nav-center {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  color: #33669A;
+}
+.centercontent {
+  height: 100%;
+  width: 1400px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-bottom: 0px;
+  margin-right: auto;
+}
+h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <800>;
+  font-style: normal;
+  font-size: 48px;
+}
+p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+  font-size: 18px;
+}
+.know {
+  background-color: #33669A;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+  font-size: 18px;
+  padding: 20px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-top: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+.know:hover {
+  background-color: #2b5885;
+}
+.container {
+  text-align: center;
+}
+.image {
+  text-align: center;
+  margin-top: 40px;
+}
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.card {
+  width: 230px;
+  border: 4px solid #3b5998;
+  padding: 28px;
+  text-align: center;
+  background: white;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.about {
+  background: linear-gradient(to right, #33669A, #002240);
+  color: white;
+  border: none;
+  padding: 13px 30px;
+  cursor: pointer;
+  margin-top: 13px;
+  border-radius: 5px;
+}
+.about:hover {
+  background: linear-gradient(to right, #234a73, #000e2a);
+}
+h3 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+  font-size: 22px;
+  margin-top: -8px;
+}
+.title {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+  font-size: 16px;
+  margin-top: -8px;
+}
+.description {
+  font-size: 19px;
+}
+.contact {
+  background: white;
+  color: #33669A;
+  border: none;
+  padding: 10px 26px;
+  cursor: pointer;
+  margin-top: 0px;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+  font-size: 18px;
+  fon
+}
+.contact:hover {
+  background-color: #d3d5d6;
+}
