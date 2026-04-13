@@ -9,7 +9,8 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #33669A;
-  padding: 10px 0;
+  padding: 0px 0;
+  height: 60px;
   margin: -8px;
 }
 
@@ -47,6 +48,15 @@ body {
   justify-content: flex-end;
   margin-right: 20px;
   color: #33669A;
+}
+.quartznav {
+      font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <900>;
+  font-style: normal;
+  font-size: 24px;
+  margin-left: 20px;
+  text-align: left;
 }
 .centercontent {
   height: 100%;
@@ -111,7 +121,6 @@ p {
   margin-left: 150px;
   margin-right: 150px;
 }
-
 .firstset {
   width: 100%;
   height: 500px;
@@ -123,7 +132,6 @@ p {
   justify-content: center;
   margin-top: -20px;
 }
-
 .secondset {
   width: 100%;
   height: 500px;
@@ -135,7 +143,6 @@ p {
   justify-content: center;
   margin-bottom: -50px;
 }
-
 .card {
   width: 230px;
   border: 4px solid #3b5998;
@@ -145,7 +152,6 @@ p {
   margin-right: 30px;
   margin-left: 30px;
 }
-
 .profile-img {
   width: 80px;
   height: 80px;
@@ -153,7 +159,6 @@ p {
   object-fit: cover;
   margin-bottom: 15px;
 }
-
 .about {
   background: linear-gradient(to right, #33669A, #002240);
   color: white;
@@ -166,7 +171,7 @@ p {
 .about:hover {
   background: linear-gradient(to right, #234a73, #000e2a);
 }
-h3 {
+h2 {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
@@ -207,12 +212,18 @@ h3 {
 .mission {
   width: 100%;
   height: 333px;
+  display: grid;
+  place-items: center;
+}
+.missioncontainer {
+  width: 1100px;
+  height: 333px;
 }
 .missiontext {
 width: 500px;
 height: 333px;
 float: left;
-margin-left: 200px;
+margin-left: 0px;
 }
 .heading {
   font-family: "Roboto", sans-serif;
@@ -258,11 +269,11 @@ margin-left: 200px;
 width: 500px;
 height: 333px;
 float: right;
-margin-right: 200px;
+margin-right: 0px;
 }
 .projects {
   width: 100%;
-  height: 1600px;
+  height: 1680px;
 }
 .projectdescbox1 {
   float: left;
@@ -279,14 +290,15 @@ margin-right: 200px;
   align-content: center;
   justify-content: center;
 }
-h4 {
-  font-family: "Roboto", sans-serif;
+.projectheading {
+    font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: <800>;
   font-style: normal;
   font-size: 28px;
   margin-top: -20px;
   color: #33669A;
+  text-align: left;
 }
 .projskyline {
   font-family: "Roboto", sans-serif;
@@ -347,7 +359,7 @@ h4 {
 }
 .browsebutton {
   width: 100%;
-  height: 250px;
+  height: 200px;
     display: grid;
   place-items: center;
 }
@@ -369,12 +381,16 @@ h4 {
 .browse:hover {
   background: linear-gradient(to right, #234a73, #000e2a);
 }
+.moreaboutcontainer {
+  width: 100%;
+  height: 200px;
+    display: grid;
+  place-items: center;
+  place-content: center;
+}
 .moreabout {
   width: 700px;
   height: 200px;
-  display: grid;
-  place-items: center;
-  place-content: center;
 }
 .moreabouttext {
     text-align: center;
@@ -384,4 +400,205 @@ h4 {
   font-style: normal;
   font-size: 23px;
   line-height: 30px;
+}
+.socialmedia {
+  width: 100%;
+  height: 200px;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  margin-bottom: 60px;
+}
+.socialscontainer {
+width: 1200px;
+height: 48px;
+  display: flex;
+  place-content: center;
+  margin-top: -20px;
+}
+.socials {
+    background: linear-gradient(to bottom, #33669A, #002240);
+  color: white;
+  border: none;
+  width: 144px;
+  height: 48px;
+  cursor: pointer;
+  margin-top: 0px;
+  border-radius: 6px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <500>;
+  font-style: normal;
+  font-size: 21px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.socials:hover {
+  background: linear-gradient(to bottom, #234a73, #000e2a);
+}
+.footer {
+  width: 100%;
+  height: 80px;
+  display: grid;
+  place-items: center;
+  place-content: center;
+}
+.footercontainer {
+width: 1200px;
+height: 80px;
+  display: flex;
+  place-content: center;
+}
+.quartzfooter {
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <800>;
+  font-style: normal;
+  font-size: 28px;
+  margin-top: 0px;
+  color: #33669A;
+  text-align: center;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 11px;
+}
+h3 {
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+  font-size: 18px;
+  margin-left: 30px;
+  margin-right: 30px;
+    color: #33669A;
+}
+hr {
+  border: 1px solid black;
+  width: 1140px;
+  margin-top: -10px;
+}
+.copyright {
+  width: 100%;
+  height: 120px;
+  display: grid;
+  place-items: center;
+  place-content: center;
+}
+.copyrightcontainer {
+width: 1200px;
+height: 120px;
+  display: flex;
+  place-content: center;
+}
+.copyrighttext {
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <500>;
+  font-style: normal;
+  font-size: 16px;
+  margin-top: 0px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.aboutteo {
+  width: 100%;
+  height: 500px;
+  display: flex;
+    place-items: center;
+  place-content: center;
+  margin-top: 100px;
+}
+.aboutteocontainer {
+  width: 1200px;
+  height: 500px;
+  display: flex;
+}
+.aboutteoimage {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  float: left;
+}
+.about-img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.aboutteotext {
+  width: 650px;
+  height: 500px;
+  display: flex-end;
+  float: left;
+  margin-left: 50px;
+  place-content: center;
+}
+.teoheading {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <800>;
+  font-style: normal;
+  font-size: 48px;
+  text-align: left;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.teosubheading {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <500>;
+  font-style: normal;
+  font-size: 28px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.teotext {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <500>;
+  font-style: normal;
+  font-size: 21px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.designgoals {
+    width: 900px;
+  height: 300px;
+  margin: auto;
+  margin-top: 20px;
+}
+.designgoalsheader {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <800>;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.designgoalstext {
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <500>;
+  font-style: normal;
+  font-size: 21px;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
 }

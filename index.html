@@ -2,7 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css">
-<title>Portfolio</title>
+<title>Quartz Architectz</title>
 <link rel="stylesheet" href="https://use.typekit.net/zhe1ajt.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,40 +11,40 @@
 <body>
 	<nav class="navbar">
   <div class="nav-left">
-    <a href="#">QUARTZ ARCHITECTZ</a>
+    <a href="#"><h1 class="quartznav">QUARTZ ARCHITECTZ</h1></a>
   </div>
   <div class="nav-center">
-    <a href="#">Our Architectz</a>
-    <a href="#">Our Mission</a>
-    <a href="#">Projects</a>
-    <a href="#">About Our Company</a>
+    <a href="#architectz">Our Architectz</a>
+    <a href="#mission">Our Mission</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About Our Company</a>
   </div>
   <div class="nav-right">
-    <a href="#"><button class="contact">Contact Us</button></a>
+    <a href="#contactus"><button class="contact">Contact Us</button></a>
   </div>
 </nav>
 <h1>We Value Your Needs</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>
 eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<div class="container"><button class="know">Get to Know our Architectz</button></div>
+<div class="container"><a href="#architectz" style="color: white; text-decoration: none;"><button class="know">Get to Know Our Architectz</button></a></div>
 <div class="image"><img src="images/BuildingMockup.jpg" style="width: 60%;"></div>
-<h1>Our Architectz</h1>
+<h1 id="architectz">Our Architectz</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
 <section class="team">
 <div class="firstset">
   <div class="card">
     <img src="images/Teo.jpg" class="profile-img">
-    <h3>Teo Bigliardi</h3>
+    <h2>Teo Bigliardi</h2>
     <p class="title">Lead Architect</p>
     <br>
     <p class="description">Lorem ipsum dolor sit <br>amet, consectetur <br>adipiscing elit, sed do <br>eiusmod</p>
     <br>
     <br>
-    <button class="about">More About Me</button>
+    <a href="teo.html"><button class="about">More About Me</button></a> 
   </div>
     <div class="card">
     <img src="images/Julia.jpg" class="profile-img">
-    <h3>Julia Fidelis</h3>
+    <h2>Julia Fidelis</h2>
     <p class="title">Interior Designer</p>
     <br>
     <p class="description">Lorem ipsum dolor sit <br>amet, consectetur <br>adipiscing elit, sed do <br>eiusmod</p>
@@ -54,7 +54,7 @@ eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </div>
     <div class="card">
     <img src="images/Diana.jpg" class="profile-img">
-    <h3>Diana Tao</h3>
+    <h2>Diana Tao</h2>
     <p class="title">Landscape Designer</p>
     <br>
     <p class="description">Lorem ipsum dolor sit <br>amet, consectetur <br>adipiscing elit, sed do <br>eiusmod</p>
@@ -66,7 +66,7 @@ eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 <div class="secondset">
     <div class="card">
     <img src="images/Jonathan.jpg" class="profile-img">
-    <h3>Jonathan Zisser</h3>
+    <h2>Jonathan Zisser</h2>
     <p class="title">Team Leader</p>
     <br>
     <p class="description">Lorem ipsum dolor sit <br>amet, consectetur <br>adipiscing elit, sed do <br>eiusmod</p>
@@ -76,7 +76,7 @@ eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </div>
     <div class="card">
     <img src="images/Max.jpg" class="profile-img">
-    <h3>Max Park</h3>
+    <h2>Max Park</h2>
     <p class="title">Lead Architect</p>
     <br>
     <p class="description">Lorem ipsum dolor sit <br>amet, consectetur <br>adipiscing elit, sed do <br>eiusmod</p>
@@ -86,7 +86,7 @@ eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </div>
     <div class="card">
     <img src="images/Lilach.jpg" class="profile-img">
-    <h3>Lilach Borenstein</h3>
+    <h2>Lilach Borenstein</h2>
     <p class="title">Junior Architect</p>
     <br>
     <p class="description">Lorem ipsum dolor sit <br>amet, consectetur <br>adipiscing elit, sed do <br>eiusmod</p>
@@ -96,8 +96,8 @@ eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </div>
 </div>
 </section>
-<h1>Our Mission</h1>
-<div class="mission">
+<h1 id="mission">Our Mission</h1>
+<div class="mission"><div class="missioncontainer">
   <div class="missiontext">
     <div class="heading">Lorem ipsum dolor sit amet</div>
     <br>
@@ -108,12 +108,12 @@ eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     <div class="teo"><img src="images/Teo.jpg" class="profile-img" style="width: 50px; height: 50px;"><div class="name">Teo Bigliardi, Lead Architect</div></div>
   </div>
   <div class="missionimg"><img src="images/Group.jpg" style="width: 100%; float: left;"></div>
-</div>
-<h1>Projects</h1>
+</div></div>
+<h1 id="projects">Projects</h1>
 <div class="projects">
   <div class="projectdescbox1">
   <div class="projectdesc1">
-  <h4>Skyline Prism - Chicago, USA</h4>
+  <h2 class="projectheading">Skyline Prism - Chicago, USA</h2>
   <div class="projskyline">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
   <button class="learnmore">Learn More</button>
   </div></div>
@@ -121,16 +121,36 @@ eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   <div class="projectimg2"><img src="images/Kelti.jpg" class="project-img" style="width: 100%;"></div>
   <div class="projectdescbox2">
   <div class="projectdesc2">
-  <h4>Kelti Group Headquarters - Taipei, Taiwan</h4>
+  <h2 class="projectheading">Kelti Group Headquarters - Taipei, Taiwan</h2>
   <div class="projskyline">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.</div>
   <button class="learnmore">Learn More</button>
   </div>
   </div>
-  </div>  
-  <div class="browsebutton"><button class="browse">Browse Entire Portfolio</button>
-<h1>More About Our Company</h1>
-<div class="moreabout"><div class="moreabouttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit</div></div></div>
+  </div>
+  <div class="browsebutton"><button class="browse">Browse Entire Portfolio</button></div>
+<h1 id="about">More About Our Company</h1>
+<div class="moreaboutcontainer"><div class="moreabout"><div class="moreabouttext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit</div></div></div>
+<div class="socialmedia"><div class="socialscontainer">
+<button class="socials">Email</button>
+<button class="socials">Vimeo</button>
+<button class="socials" id="contactus">Instagram</button>
+<button class="socials">YouTube</button>
+<button class="socials">LinkedIn</button>
+</div></div>
 
+<div class="footer"><div class="footercontainer">
+<h3><a href="#architectz" style="color: #33669A; text-decoration: none;">Architectz</a></h3>
+<h3><a href="#mission" style="color: #33669A; text-decoration: none;">Mission</a></h3>
+<h2 class="quartzfooter">QUARTZ ARCHITECTZ</h2>
+<h3><a href="#projects" style="color: #33669A; text-decoration: none;">Projects</a></h3>
+<h3><a href="#about" style="color: #33669A; text-decoration: none;">About Us</a></h3>
+</div></div>
+<hr>
+<div class="copyright"><div class="copyrightcontainer">
+<div class="copyrighttext">© 2004 — 2026</div> 
+<div class="copyrighttext">Privacy — Terms</div> 
+   
+</div></div>
 
 
 
