@@ -175,10 +175,9 @@ h2 {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <400>;
+  font-weight: <800>;
   font-style: normal;
-  font-size: 22px;
-  margin-top: -8px;
+  font-size: 58px;
 }
 .title {
   text-align: center;
@@ -191,6 +190,8 @@ h2 {
 }
 .description {
   font-size: 19px;
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
 .contact {
   background: white;
@@ -232,6 +233,7 @@ margin-left: 0px;
   font-style: normal;
   font-size: 34px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .bodycopy {
   font-family: "Roboto", sans-serif;
@@ -239,6 +241,7 @@ margin-left: 0px;
   font-weight: <500>;
   font-style: normal;
   font-size: 20px;
+  margin-bottom: 54px;
 }
 .quote {
   font-family: "Roboto", sans-serif;
@@ -247,6 +250,7 @@ margin-left: 0px;
   font-style: normal;
   font-size: 15px;
   color: #33669A;
+  margin-bottom: 16px;
 }
 .teo {
   font-family: "Roboto", sans-serif;
@@ -306,6 +310,7 @@ margin-right: 0px;
   font-weight: <500>;
   font-style: normal;
   font-size: 24px;
+  width: 500px;
 }
 .learnmore {
   background: linear-gradient(to right, #33669A, #002240);
@@ -442,6 +447,7 @@ height: 48px;
   display: grid;
   place-items: center;
   place-content: center;
+  margin-top: 120px;
 }
 .footercontainer {
 width: 1200px;
@@ -463,6 +469,15 @@ height: 80px;
   margin-top: 11px;
 }
 h3 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+  font-size: 22px;
+  margin-top: -8px;
+}
+.footertext {
     font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: <400>;
@@ -471,6 +486,7 @@ h3 {
   margin-left: 30px;
   margin-right: 30px;
     color: #33669A;
+    margin-top: 16px;
 }
 hr {
   border: 1px solid black;
@@ -686,6 +702,7 @@ height: 120px;
   display: grid;
   place-items: center;
   margin-bottom: 50px;
+
 }
 .fullprojectdesc1 {
   width: 500px;
