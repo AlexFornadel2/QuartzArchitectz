@@ -858,25 +858,6 @@ img {
   height: auto;
 }
 @media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    height: auto;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .nav-left, .nav-center, .nav-right {
-    width: 100%;
-    margin: 5px 0;
-    justify-content: center;
-  }
-
-  .nav-center {
-    flex-wrap: wrap;
-    gap: 10px;
-    font-size: 14px;
-  }
-
   .contact {
     width: 100%;
   }
@@ -899,9 +880,15 @@ img {
     height: auto;
   }
 
-  .missiontext, .missionimg {
+  .missiontext {
     width: 100%;
     float: none;
+  }
+  .missionimg {
+    width: 90%;
+    float: none;
+    margin-top: 60px;
+    margin-bottom: -100px;
   }
 
   .mission {
@@ -910,17 +897,27 @@ img {
   }
   .projects {
     height: auto;
+    margin-top: -260px;
   }
 
   .projectdescbox1,
-  .projectdescbox2,
-  .projectimg1,
   .projectimg2 {
     width: 100%;
     float: none;
     height: auto;
   }
-
+  .projectdescbox2 {
+    width: 100%;
+    float: none;
+    height: auto;
+    margin-top: -240px;
+  }
+  .projectimg1 {
+    width: 100%;
+    float: none;
+    height: auto;
+    margin-top: -220px;
+  }
   .projectdesc1,
   .projectdesc2 {
     width: 100%;
@@ -975,9 +972,68 @@ img {
     font-size: 20px;
     padding: 16px 30px;
   }
-
+  .browsebutton {
+    margin-top: -340px;
+  }
   .learnmore {
     font-size: 16px;
     padding: 12px 20px;
+  }
+  .footercontainer,
+  .socialscontainer,
+  .copyrightcontainer,
+  .moreabout {
+    width: 90%;
+  }
+  hr {
+    width: 90%;
+  }
+  .footertext {
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size: 13px;
+  }
+  .quartzfooter {
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size: 16px;
+  }
+  .socials {
+    width: 66px;
+    font-size: 12px;
+    height: 24px;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  .moreabouttext {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <500>;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .socialmedia {
+    margin-bottom: -160px;
+  }
+  .nav-center {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+  font-size: 10px;
+  gap: 6px;
+  margin-top: 10px;
+  }
+  .quartznav {
+    font-size: 13px;
+    margin-left: -16px;
+  }
+  .quote {
+    width: 90%;
   }
 }
