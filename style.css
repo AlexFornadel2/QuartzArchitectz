@@ -1,6 +1,5 @@
 body {
   background-color: #F2F2F2;
-  overflow-x: hidden;
 }
 .navbar {
   position: sticky;
@@ -849,4 +848,136 @@ margin-bottom: -40px;
   height: 900px;
   object-fit: cover;
   margin-top: 20px;
+}
+{
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .nav-left, .nav-center, .nav-right {
+    width: 100%;
+    margin: 5px 0;
+    justify-content: center;
+  }
+
+  .nav-center {
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 14px;
+  }
+
+  .contact {
+    width: 100%;
+  }
+  .team {
+    margin: 0;
+    padding: 20px;
+  }
+
+  .firstset, .secondset {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .missioncontainer {
+    width: 100%;
+    height: auto;
+  }
+
+  .missiontext, .missionimg {
+    width: 100%;
+    float: none;
+  }
+
+  .mission {
+    height: auto;
+    padding: 20px;
+  }
+  .projects {
+    height: auto;
+  }
+
+  .projectdescbox1,
+  .projectdescbox2,
+  .projectimg1,
+  .projectimg2 {
+    width: 100%;
+    float: none;
+    height: auto;
+  }
+
+  .projectdesc1,
+  .projectdesc2 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .projskyline {
+    width: 100%;
+    font-size: 18px;
+  }
+  .aboutteocontainer {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .aboutteoimage,
+  .aboutteotext {
+    width: 100%;
+    margin: 0;
+  }
+
+  .about-img {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
+
+  .teoheading, .teosubheading, .teotext {
+    text-align: center;
+  }
+   .baelskaaiheader,
+  .baelskaaiimg {
+    width: 100%;
+  }
+
+  .baelskaaidouble {
+    grid-template-columns: 1fr;
+  }
+
+  .baelskaaitop img,
+  .baelskaaidouble img,
+  .baelskaaibottom img {
+    height: auto;
+  }
+  h1 { font-size: 36px; }
+  h2 { font-size: 32px; }
+  p { font-size: 16px; }
+
+  .browse {
+    font-size: 20px;
+    padding: 16px 30px;
+  }
+
+  .learnmore {
+    font-size: 16px;
+    padding: 12px 20px;
+  }
 }
